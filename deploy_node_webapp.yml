@@ -7,7 +7,7 @@
     ansible_python_interpreter: "/usr/bin/env python3"
   tasks:
     # Create Kubernetes replica set
-    - name: create replicaset object
+    - name: Create replicaset object
       k8s:
         state: present
         definition:
